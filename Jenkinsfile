@@ -31,8 +31,7 @@ pipeline {
         }
       }
     }
-    /*
-    stage('DT Deploy Event') {
+      stage('DT Deploy Event') {
       steps {
         createDynatraceDeploymentEvent(
           envId: 'Dynatrace Tenant',
@@ -50,6 +49,5 @@ pipeline {
         }
       }
     }
-    */
   }
 }
